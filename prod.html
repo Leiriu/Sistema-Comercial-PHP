@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Cadastro de Produto</title>
+			<meta charset="UTF-8">
+				<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body class="background">
+
+	<div class="topnav" id="myTopnav">
+ <a href="sair.php">Sair</a>
+ 
+ <a href="menu2.php">Menu</a>
+
+ <div class="dropdown">
+  <button class="dropbtn">Cadastro 
+  <i class="fa fa-caret-down"></i>
+  </button>
+   <div class="dropdown-content">
+      <a href="cliente.html">Cliente</a>
+      <a href="fun.html">Funcionário</a>
+      <a href="forn.html">Fornecedor</a>
+	  <a href="prod.html">Produto</a>
+	  <a href="usu.html">Usuários</a>
+  </div>
+  </div>
+  
+  
+  
+  <div class="dropdown">
+    <button class="dropbtn">Consulta 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="consultacliente.php">Cliente</a>
+      <a href="consultafuncio.php">Funcionário</a>
+	  <a href="consultaforn.php">Fornecedor</a>
+	  <a href="consultaprod.php">Produto</a>
+	  <a href="consultausu.php">Usuários</a>
+    </div>
+  </div>
+  
+  
+  <a href="sobre">Sobre Nós</a>
+  <a href="#contato">Contato</a>
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  
+  
+  
+</div>
+	
+			<div id="corpo1">
+				<div id="corpo2">
+					
+				
+			<form action="criar5.php" method="post">
+			
+					<h1>Cadastramento de Produto</h1>
+					
+				<h4>Nome do produto:</h4>
+				<input type="text" name="nomeprod" id="nome">
+			
+					
+				<h4>Marca do produto:</h4>
+				<input type="text" name="marcaprod" id="emailjava">
+				
+					
+				
+				<br>
+				<br>
+				
+			
+				<button onclick="calcula();">Cadastrar</button>
+					<input type ="reset" value = "Limpar tudo">
+					
+					</div>
+			</div>
+			</form>
+	
+		</body>
+
+</html>
